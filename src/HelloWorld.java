@@ -11,7 +11,7 @@ public class HelloWorld {
 			Thread.sleep(1000);
 			moveBackward(time, speed);
 		} catch (InterruptedException e) {
-			LCD.drawString("THere was a problem", 3, 4);
+			LCD.drawString("There was a problem", 3, 4);
 			e.printStackTrace();
 		}
 
