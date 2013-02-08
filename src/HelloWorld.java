@@ -1,10 +1,10 @@
-//Cameron Test
 import lejos.nxt.LCD;
 import lejos.nxt.Motor;
 
 public class HelloWorld {
 
 	public static void main(String[] args) {
+		LCD.drawString("HelloWorld", 3, 4);
 		long time = 2000; //2 seconds
 		float speed = 720; //2 RPM
 		try {
